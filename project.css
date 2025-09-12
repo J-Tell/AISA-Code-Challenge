@@ -6,11 +6,11 @@
     height: 150px;
     line-height: 150px;
     font-family: 'HankenGrotesk-Bold';
-    color: rgb(132, 104, 197);
+    color: hsl(241, 100%, 89%);
 }
 
 #gradient-circle {
-  background-image: linear-gradient(#4c24ce, #4834f0);
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 .num-design {
@@ -37,7 +37,7 @@
 }
 
 .button {
-  background-color: #323b58;
+  background-color: hsl(224, 30%, 27%);
   color: #e7ecef;
   border-radius: 30px;
   width: 25em;
@@ -63,11 +63,12 @@
   background-color: #f4f4fe;
   display:flex;
   width: 300px;
+  margin-bottom: 20px;
   /* margin-right:10px; */
 }
 
 .visual-name {
-  color:#4443a0;
+  color:hsl(234, 85%, 45%);
   display: flex;
   font-family: 'HankenGrotesk-Medium';
 }
@@ -84,11 +85,13 @@ font-family: 'HankenGrotesk-Medium';
   background-color: #f1fcf9;
   display:flex;
   width: 300px;
+  margin-bottom: 20px;
+
   /* margin-right:10px; */
 }
 
 .verbal-name {
-  color:rgb(36, 182, 116);
+  color:hsl(166, 100%, 37%);
   display: flex;
   font-family: 'HankenGrotesk-Medium';
 }
@@ -105,11 +108,12 @@ font-family: 'HankenGrotesk-Medium';
   background-color: rgba(249, 255, 225, 0.509);
   display:flex;
   width: 300px;
+  margin-bottom: 20px;
   /* margin-right:10px; */
 }
 
 .memory-name {
-  color:rgb(239, 186, 10);
+  color:hsl(39, 100%, 56%);
   display: flex;
   font-family: 'HankenGrotesk-Medium';
 }
@@ -126,11 +130,12 @@ font-family: 'HankenGrotesk-Medium';
   background-color: rgba(255, 170, 170, 0.151);
   display:flex;
   width: 300px;
+  margin-bottom: 20px;
   /* margin-right:10px; */
 }
 
 .reaction-name {
-  color:rgb(232, 44, 44);
+  color:hsl(0, 100%, 67%);
   display: flex;
   font-family: 'HankenGrotesk-Medium';
 }
@@ -141,7 +146,7 @@ font-family: 'HankenGrotesk-Medium';
 }
 
 header {
-  background-image: linear-gradient(#6943fe,#332dea);
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
   overflow: hidden;
   border-radius: 50px;
 }
@@ -149,7 +154,7 @@ header {
 .result-title {
   text-align: center;
   font-family: 'HankenGrotesk-Bold';
-  color: rgb(219, 199, 255);
+  color: hsl(241, 100%, 89%);
 }
 
 .praise {
@@ -162,7 +167,7 @@ header {
 .description {
   text-align: center;
   font-family: 'HankenGrotesk';
-  color: rgb(212, 186, 234);
+  color: hsl(241, 100%, 89%);
 }
 
 @font-face {
@@ -187,5 +192,5 @@ header {
 
 .summary {
   font-family: 'HankenGrotesk';
-  color: #474a62;
+  color: hsl(224, 30%, 27%);
 }

@@ -1,12 +1,17 @@
+/* Add spacing between summary icons and text */
+.element img {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
 
 /* Utility classes */
 .score-bold {
   font-weight: bold;
-  color: hsl(234, 85%, 45%);
+  color: hsl(224, 30%, 27%);
 }
 .score-normal {
   font-weight: bold;
-  color: hsl(241, 100%, 89%);
+  color: hsl(227, 10%, 73%);
 }
 
 .circle {
@@ -25,8 +30,8 @@
 
 .of-100 {
   display: block;
-  font-size: 18px;
-  color: hsl(241, 100%, 89%);
+  font-size: 16px;
+  color: hsl(241, 100%, 75%);
   margin-top: 0.2em;
   letter-spacing: 1px;
 }
@@ -38,7 +43,7 @@
 .num-design {
   color: white;
   font-family: 'HankenGrotesk-ExtraBold';
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .round-circle {
@@ -53,33 +58,50 @@
   margin-right: auto;
 }
 
+header {
+  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  overflow: hidden;
+  width: 100vw;
+  margin: 0;
+  padding-top: 0;
+  border-radius: 0 0 50px 50px;
+  position: static;
+}
+
+body {
+  margin: 0;
+}
+
+.result-title {
+  text-align: center;
+  font-family: 'HankenGrotesk-Bold';
+  color: hsl(241, 100%, 89%);
+  font-size: 20px;
+}
+
+.praise {
+  text-align: center;
+  font-family: 'HankenGrotesk-Bold';
+  color: white;
+  font-size: 25px;
+}
+
+.description {
+  text-align: center;
+  font-family: 'HankenGrotesk';
+  color: hsl(241, 100%, 89%);
+}
+
 .element {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
 
-.button {
-  background-color: hsl(224, 30%, 27%);
-  color: #e7ecef;
-  border-radius: 30px;
-  width: 25em;
-  height: 4em;
-  line-height: 0em;
+.summary {
+  font-family: 'HankenGrotesk-ExtraBold';
+  color: hsl(224, 30%, 27%);
 }
-
-.continue {
-  font-family: 'HankenGrotesk-Medium';
-  font-size: 20px;
-}
-
-.button:hover {
-  background-color: rgb(67, 73, 113);
-  color: #e7ecef;
-  border-radius: 30px;
-  cursor: pointer;
-}
-
 
 /* Category styles grouped together */
 .reaction, .memory, .verbal, .visual {
@@ -110,22 +132,22 @@
 .reaction-name {
   color: hsl(0, 100%, 67%);
   display: flex;
-  font-family: 'HankenGrotesk-Medium';
+  font-family: 'HankenGrotesk-Bold';
 }
 .memory-name {
   color: hsl(39, 100%, 56%);
   display: flex;
-  font-family: 'HankenGrotesk-Medium';
+  font-family: 'HankenGrotesk-Bold';
 }
 .verbal-name {
   color: hsl(166, 100%, 37%);
   display: flex;
-  font-family: 'HankenGrotesk-Medium';
+  font-family: 'HankenGrotesk-Bold';
 }
 .visual-name {
   color: hsl(234, 85%, 45%);
   display: flex;
-  font-family: 'HankenGrotesk-Medium';
+  font-family: 'HankenGrotesk-Bold';
 }
 
 .reaction-number, .memory-number, .verbal-number, .visual-number {
@@ -134,29 +156,25 @@
   font-weight: bold;
 }
 
-header {
-  background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-  overflow: hidden;
-  border-radius: 50px;
+.button {
+  background-color: hsl(224, 30%, 27%);
+  color: #e7ecef;
+  border-radius: 30px;
+  width: 25em;
+  height: 4em;
+  line-height: 0em;
 }
 
-.result-title {
-  text-align: center;
+.continue {
   font-family: 'HankenGrotesk-Bold';
-  color: hsl(241, 100%, 89%);
+  font-size: 20px;
 }
 
-.praise {
-  text-align: center;
-  font-family: 'HankenGrotesk-Bold';
-  color: white;
-  font-size: 25px;
-}
-
-.description {
-  text-align: center;
-  font-family: 'HankenGrotesk';
-  color: hsl(241, 100%, 89%);
+.button:hover {
+  background-color: rgb(67, 73, 113);
+  color: #e7ecef;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 @font-face {
@@ -177,9 +195,4 @@ header {
 @font-face {
   font-family: 'HankenGrotesk-Medium';
   src: url('assets/fonts/static/HankenGrotesk-Medium.ttf');
-}
-
-.summary {
-  font-family: 'HankenGrotesk';
-  color: hsl(224, 30%, 27%);
 }

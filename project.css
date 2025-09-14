@@ -148,13 +148,12 @@
     margin-right: 0.5em;
   }
 }
-/* Add spacing between summary icons and text */
+
 .element img {
   margin-right: 0.5em;
   vertical-align: middle;
 }
 
-/* Utility classes */
 .score-bold {
   font-weight: bold;
   color: hsl(224, 30%, 27%);
@@ -197,12 +196,6 @@
 }
 
 .round-circle {
-
-  /* border: 2px solid;
-  padding: 20px; 
-  width: 400px; */
-  /* resize: both; */
-  /* overflow: auto; */
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -253,7 +246,6 @@ body {
   color: hsl(224, 30%, 27%);
 }
 
-/* Category styles grouped together */
 .reaction, .memory, .verbal, .visual {
   padding: 5%;
   text-align: center;

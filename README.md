@@ -5,7 +5,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -19,14 +18,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
 
@@ -42,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/J-Tell/AISA-Code-Challenge]
+- Live Site URL: [https://j-tell.github.io/AISA-Code-Challenge/]
 
 ## My process
 
@@ -55,27 +46,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div><button class="button"><p class="continue">Continue</p></button></div>
 ```
+This part of HTML was interesting because I used three tags in one line of code, which allowed me to apply multiple CSS classes to one aspect of my program.
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#gradient-circle {
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+#gradient-circle was something new I learned because I had never made a gradient in CSS before.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Working with pre-imported fonts was also new to me, so I had to research the syntax to add the multiple fonts to the code.
 
 ### Continued development
 
@@ -85,10 +73,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [W3Schools CSS Gradients](https://www.w3schools.com/css/css3_gradients.asp) - This helped me learn how to make gradients in CSS.
+- [W3Schools CSS Font-Face](https://www.w3schools.com/cssref/atrule_font-face.php) - This helped me learn the syntax required to use imported fonts.
 
 ## Author
 

@@ -67,7 +67,7 @@ I want to fix up the view of the website on my phone. I am still learning how to
 
 ## Author
 
-- Website - [https://github.com/J-Tell]([https://github.com/J-Tell)
+- Website - [https://github.com/J-Tell]
 - LinkedIn - [https://www.linkedin.com/in/jeannelle-t-9563a932b/](https://www.linkedin.com/in/jeannelle-t-9563a932b/)
 
 ## Acknowledgments

@@ -15,21 +15,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./Screenshot of Project Page.png)
 
 ### Links
 
@@ -55,21 +45,20 @@ This part of HTML was interesting because I used three tags in one line of code,
 #gradient-circle {
   background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
+```
+#gradient-circle was something new I learned because I had never made a gradient in CSS before.
 
+``` css
 @font-face {
   font-family: 'HankenGrotesk';
   src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
 }
 ```
-#gradient-circle was something new I learned because I had never made a gradient in CSS before.
-
 Working with pre-imported fonts was also new to me, so I had to research the syntax to add the multiple fonts to the code.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to fix up the view of the website on my phone. I am still learning how to use ems and apply CSS to mobile devices, so that is something I hope to improve on in the future. I also want to continue learning about headers and divs. Centering divs and controlling their position on the screen is something I have worked with but want to improve upon. Lastly, I am not fully comfortable using JavaScript as a replacement for HTML. I have worked with it in the past, and although I have some experience, the syntax is still confusing to me, so that is something I want to refine as well.
 
 ### Useful resources
 
@@ -78,13 +67,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Jeannelle](https://github.com/J-Tell)
+- LinkedIn - [https://www.linkedin.com/in/jeannelle-t-9563a932b/]
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thank you to my friends in my dorm for moral support and helping me make sure my code matched the exam.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thank you to Amirali Rezaei for telling me about this position and answering my questions at the Entrepreneurship Open House.

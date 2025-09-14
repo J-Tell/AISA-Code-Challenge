@@ -57,6 +57,7 @@ This part of HTML was interesting because I used three tags in one line of code,
 Working with pre-imported fonts was also new to me, so I had to research the syntax to add the multiple fonts to the code.
 
 ### Continued development
+
 These are some things I want to improve on:
 - Mobile View: Having a better mobile view will allow users to view the website on any device, so I hope to learn more about ems to apply them to my projects.
 - Headers and Divs: Headers and divs help group together portions of the code, so improving these would help me move and position large portions of the code.

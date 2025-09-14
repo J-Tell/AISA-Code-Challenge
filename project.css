@@ -1,4 +1,101 @@
 @media (max-width: 600px) {
+  html, body {
+    width: 100vw;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vw;
+    border-radius: 0 0 30px 30px;
+    padding: 1em 0.5em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .circle {
+    width: 90px;
+    height: 90px;
+    font-size: 1em;
+    margin: 0 auto;
+  }
+  .num-design {
+    font-size: 2em;
+  }
+  .of-100 {
+    font-size: 1em;
+  }
+  .round-circle {
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .element {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 0.5em;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reaction, .memory, .verbal, .visual {
+    width: 95vw;
+    min-width: unset;
+    margin-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 0.5em;
+    font-size: 1em;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .reaction-name, .memory-name, .verbal-name, .visual-name {
+    font-size: 1em;
+    margin: 0.5em 0 0.2em 0;
+    text-align: center;
+    width: 100%;
+  }
+  .reaction-number, .memory-number, .verbal-number, .visual-number {
+    margin-left: 0;
+    font-size: 1em;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  .button {
+    width: 100%;
+    min-width: unset;
+    font-size: 1em;
+    height: 3em;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .continue {
+    font-size: 1em;
+  }
+  .summary {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+  }
+  .element img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 600px) {
   body {
     padding: 0;
     margin: 0;

@@ -7,6 +7,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
   }
+
   header {
     width: 100vw;
     border-radius: 0 0 30px 30px;
@@ -15,15 +16,18 @@
     box-sizing: border-box;
     text-align: center;
   }
+
   .circle {
     width: 90px;
     height: 90px;
     font-size: 1em;
     margin: 0 auto;
   }
+
   .num-design {
     font-size: 2em;
   }
+  
   .of-100 {
     font-size: 1em;
   }

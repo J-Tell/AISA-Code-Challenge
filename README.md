@@ -19,7 +19,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![alt text](http://url/to/Screenshot of Project Page.png)
+![alt text](./Screenshot-of-Project-Page.png)
 
 ### Links
 

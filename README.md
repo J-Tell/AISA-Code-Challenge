@@ -57,8 +57,10 @@ This part of HTML was interesting because I used three tags in one line of code,
 Working with pre-imported fonts was also new to me, so I had to research the syntax to add the multiple fonts to the code.
 
 ### Continued development
-
-I want to fix up the view of the website on my phone. I am still learning how to use ems and apply CSS to mobile devices, so that is something I hope to improve on in the future. I also want to continue learning about headers and divs. Centering divs and controlling their position on the screen is something I have worked with but want to improve upon. Lastly, I am not fully comfortable using JavaScript as a replacement for HTML. I have worked with it in the past, and although I have some experience, the syntax is still confusing to me, so that is something I want to refine as well.
+These are some things I want to improve on:
+- Mobile View: Having a better mobile view will allow users to view the website on any device, so I hope to learn more about ems to apply them to my projects.
+- Headers and Divs: Headers and divs help group together portions of the code, so improving these would help me move and position large portions of the code.
+- JavaScript: JavaScript would provide a more dymanic website interaction compared to JavaScript, as it would prevent me from having to hard-code projects,
 
 ### Useful resources
 
